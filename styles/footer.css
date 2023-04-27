@@ -1,10 +1,11 @@
 .main_div {
   column-count: 4;
-  column-gap: 60px;
+  column-gap: 100px;
   column-rule-style: solid;
   column-rule-width: 1px;
   color: black;
-  border-style: outset;
+  border-style: double;
+  font-size: 20px;
 }
 .thanks {
   display: flex;
@@ -13,6 +14,7 @@
   flex-direction: column;
   text-align: center;
   padding-bottom: 50px;
+  font-size: 20px;
 }
 footer {
   position: absolute;
@@ -23,5 +25,6 @@ footer {
   color: black;
   bottom: 0px;
   left: 0px;
-  font-family: 'Modak', cursive;
+  font-family: sans serif;
+  font-weight: bold;
 }
