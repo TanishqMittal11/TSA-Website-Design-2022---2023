@@ -1,13 +1,27 @@
-.footer-main-div {
-  background-color: darkblue;
-  text-align:center;
-  position: relative;
-  left: 100px;
-  height: 200px;
-  width: 500px;
-  bottom: 0px;
-  margin-bottom: 0px;
+.main_div {
+  column-count: 4;
+  column-gap: 60px;
+  column-rule-style: solid;
+  column-rule-width: 1px;
+  color: black;
+  border-style: outset;
 }
-.view-show-footer {
+.thanks {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding-bottom: 50px;
+}
+footer {
   position: absolute;
+  background-color: lightblue;
+  height: 200px;
+  width: 100%;
+  padding-top: 20px;
+  color: black;
+  bottom: 0px;
+  left: 0px;
+  font-family: 'Modak', cursive;
 }
